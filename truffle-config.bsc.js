@@ -11,12 +11,12 @@ module.exports = {
   /**
   * contracts_build_directory tells Truffle where to store compiled contracts
   */
-  contracts_build_directory: './build/bsc-contracts',
+  contracts_build_directory: './build/local-contracts',
 
   /**
   * contracts_directory tells Truffle where the contracts you want to compile are located
   */
-  contracts_directory: './contracts/bsc',
+  contracts_directory: './contracts/local-dev',
 
 
   networks: {
@@ -49,7 +49,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "^0.8.4"
+      version: "^0.8.7"
     }
   },
   db: {
